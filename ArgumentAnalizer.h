@@ -24,9 +24,9 @@
 #define SEARCH_FAILED (-1)
 
 #ifdef __cplusplus
-extern "C" {
 namespace ArgumentAnalizer
 {
+extern "C" {
 #endif
 
 
@@ -44,8 +44,8 @@ namespace ArgumentAnalizer
 //		throw new string("Argument does not exists!");
 	}
 #ifdef __cplusplus
-}//namesapce
 }//extern C
+}//namesapce
 #endif
 
 #endif
